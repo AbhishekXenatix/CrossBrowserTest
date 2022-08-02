@@ -1,0 +1,271 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-02T05:44:15.082Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2019477100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Open menu",
+        "description": "",
+        "id": "dashboard-page;open-menu;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 651910200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3141378200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigate to dashboard",
+            "match": {
+              "location": "StepDef.MultiBrowserStep.userNavigateToDashboard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9905673000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click \"Dự án\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dự án\"",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDef.MultiBrowserStep.userClick(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3012978500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user redirect to this page",
+            "match": {
+              "location": "StepDef.MultiBrowserStep.theUserRedirectToThisPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-02T05:44:15.080Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2030418200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Open menu",
+        "description": "",
+        "id": "dashboard-page;open-menu;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 682243500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2301915200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigate to dashboard",
+            "match": {
+              "location": "StepDef.MultiBrowserStep.userNavigateToDashboard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8703787900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click \"Task\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Task\"",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDef.MultiBrowserStep.userClick(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3016571500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user redirect to this page",
+            "match": {
+              "location": "StepDef.MultiBrowserStep.theUserRedirectToThisPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Dashboard page",
+    "description": "",
+    "id": "dashboard-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/MultiBrowserTest.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-02T05:44:15.081Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2049073700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Login page to HRM",
+        "description": "",
+        "id": "login-page;login-page-to-hrm;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 647439500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2682782400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigate to url \"https://hrm.anhtester.com/erp/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://hrm.anhtester.com/erp/login\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDef.crossbrowserStep.userNavigateToUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1205289800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter username \"admin01\" and password \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin01\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 43
+                }
+              ],
+              "location": "StepDef.crossbrowserStep.userEnterUsernameAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1081307100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click login button",
+            "match": {
+              "location": "StepDef.crossbrowserStep.clickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5009763100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user redirect to Dashboard page",
+            "match": {
+              "location": "StepDef.crossbrowserStep.theUserRedirectToDashboardPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Page",
+    "description": "",
+    "id": "login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/crossbrowser.feature",
+    "tags": []
+  }
+]
